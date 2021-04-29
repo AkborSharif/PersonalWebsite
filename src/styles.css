@@ -1,1 +1,73 @@
 /* You can add global styles to this file, and also import other style files */
+
+ul {
+  list-style-type: none;
+}
+.sidenav {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 40px;
+  margin-top: 50px;
+}
+
+.mt-40 {
+  margin-top: 130px;
+}
+
+.white {
+  color: white;
+}
+.black {
+  color: black;
+}
+
+.aquamarine {
+  color: aquamarine;
+}
+.nb {
+  color: #293250;
+}
+.brown {
+  color: brown;
+}
+.yellow {
+  background-color: #ffd55a;
+}
+.orange {
+  background-color: #e78953;
+}
+.orange {
+}
+.green {
+  background-color: #61b6b6;
+}
+.navy-blue {
+  background-color: #293250;
+}
+
+.bg-d {
+  background-color: rgb(30, 34, 41);
+}
+.bg-l {
+  background-color: rgb(255, 255, 255);
+}
+.inner-border {
+  border-radius: 5px;
+}
+.bg-ash {
+  background-color: #55bcc9;
+}
+
+.bg-dk {
+  background-color: rgb(30, 30, 31);
+}
+
+.nav-col {
+  color: #55bcc9;
+}
+/* background-color: rgb(30, 39, 41); background-color: rgba(7, 59, 88, 0.582);*/

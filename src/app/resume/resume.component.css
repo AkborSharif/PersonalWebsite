@@ -1,0 +1,13 @@
+
+.s {
+  position: absolute;
+  right: 0;
+}
+body {
+  padding-top: 48px;
+  padding-bottom: 40px;
+}
+
+hr {
+  margin-top: 0%;
+}
