@@ -1,6 +1,6 @@
 <body class="navy-blue">
      <div class="navy-blue">
-          <div class="col col-10 shadow my-5 border mx-auto pt-3 inner-border black bg-l">
+          <div class="col col-10 shadow my-5 border mx-auto pt-3 inner-border black bg-l container2">
                <div class="col text-center p-1 mb-3">
                     <button class="green rounded p-1 mr-2" (click)="onClick('#education')">Education </button>
                     <button class="green rounded p-1 mr-2" (click)="onClick('#courses')">Courses </button>
@@ -8,13 +8,17 @@
                     <button class="green rounded p-1 mr-2" (click)="onClick('#works')">Work History </button>
                     <button class="green rounded p-1 mr-2" (click)="onClick('#awards')">Awards </button>
                </div>
-               <div id='education' class="col col-11 shadow mx-auto mb-4 p-5 border black"
+               <div id='education' class="col col-11 shadow mx-auto mb-4 p-5 border black container2"
                     style="border-radius: 5px; background-color: white;">
                     <h4 class="ml-5 p-2 my-2">Education</h4>
                     <hr style="background-color: blue;">
-                    <div class="row ml-5 p-1">
-                         <h5> <b>University of California, Merced</b> </h5>
-                         <h6 class="s mr-5">Aug 2016 - May 2020</h6>
+                    <div class="row ml-4">
+                         <div class="col">
+                              <h5> <b>University of California, Merced</b> </h5>
+                         </div>
+                         <div class="col">
+                              <h6 class="s mr-3">Aug 2016 - May 2020</h6>
+                         </div>
                     </div>
 
                     <div class="p-1 ml-5">
@@ -23,7 +27,7 @@
                               Computer Science and Engineering</h6>
                          <h6>Cumulative GPA: 3.59 & In-Major GPA: 3.65</h6>
                     </div>
-                    <div class="col ml-4 p-4">
+                    <div class="col ml-4 p-2">
                          <h6>Download:</h6>
                          <a href="/assets/UC Merced Unofficial Transcript.pdf">Unofficial Transcript</a>
                          <br>
